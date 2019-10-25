@@ -93,7 +93,7 @@ $("#search").on("click", function (event) {
 				$("#events").append(pTwo2);
 				$("#events").append(pTwo3);
 				$("#events").append(pTwo4);
-				var myIcon = L.divIcon({className: 'my-div-icon'});
+				var myIcon = L.divIcon({className: 'fas fa-map-marker-alt fa-10x'});
 				L.marker([lat1, long1], {icon: myIcon}).addTo(mymap);
 				// var marker1= L.marker([lat1, long1], {
 				// 	color: 'red',
