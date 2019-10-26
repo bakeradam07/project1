@@ -1,31 +1,114 @@
 html { 
-    background-color: #EAE7DC;
+    background-color: black;
     color: #8E8D8a;
 }
 header {
     position: relative;
     /* border-bottom: #6e6658 solid 1px; */
     margin-bottom: 10px;
-    text-align: center;
+    /* text-align: center; */
     padding: 20px;
     min-height: 70px;
     /* background-color: rgba(110, 102, 88, 0.568);  */
 }
 header p {
-    color: #112d32;
-}
+    color: rgb(194, 0, 0);
+    font-size: 36px;
+    margin-left: 10px;
+    float: left;
+    font-family: 'Monoton', cursive;
 
+}
+header img {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-left: 5px;
+}
+.box-title {
+    font-size: 24px;
+    color: rgb(194, 0, 0);
+
+}
+h1{
+    font-size:48px;
+}
 .main-container {
     position: flex;
-    margin: 20px;
-}
-.box {
-    color: #112d32;
+    margin-right: 30px;
+    margin-left: 30px;
+
 }
 .field {
     margin-bottom: 20px;
+    margin-left: 50px;
+}
+#mapId {
+    height: 400px;
+    width: auto;
+}
+@media only screen and (max-width: 500px) {
+    header p {
+      font-size: 25px;
+    }
+    header img {
+        height: 50px;
+        width: 50px;
+
+    }
+  }
+.box {
+    color: #112d32;
+    border-radius: 4px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 35px;
+
+}
+.my-div-icon{
+    background-color: red;
+}
+.res-header {
+    font-family: 'Fugaz One', cursive;
+
+}
+.event-header{
+    font-family: 'Sigmar One', cursive;
+}
+.is-child-box {
+    border-radius: 4px;
+}
+
+.restaurant-name-tag, #events {
+    block-size: 500px;
+    overflow: auto;
+}
+.restName, .eventName{
+font-size:18px;
+}
+.box-left {
+    float: left;
+    height: 600px;
+}
+.box-right {
+    float: right;
+    height: 600px;
+}
+p{
+   margin-bottom: 5px;
+}
+a{
+    font-weight: bolder;
+    font-size:10px;
+}
+.restName {
+    color: black;
+    border-top: black solid 1px;
+    padding-top: 5px;
+    margin-top: 10px;
 }
 footer{
+    clear: both;
     text-align: center;
 
     margin-bottom: 0;
@@ -33,37 +116,6 @@ footer{
 }
 .foot {
     text-align: center;
-
 }
 
-#mapId {
-    height: 370px;
-    width: 600px;
-}
-
-@media only screen and (max-width: 1025px) {
-    #mapId {
-        height: 370px;
-        width: 500px
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    #mapId {
-        height: 370px;
-        width: 600px
-    }
-}
-@media only screen and (max-width: 715px) {
-    #mapId {
-        height: 370px;
-        width: 500px
-    }
-}
-@media only screen and (max-width: 585px) {
-    #mapId {
-        height: 350px;
-        width: 400px
-    }
-}
 
