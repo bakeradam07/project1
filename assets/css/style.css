@@ -133,3 +133,13 @@ a{
         margin: auto;
     }
   }
+  @media only screen and (max-width: 400px) {
+    header p {
+        font-size: 17px;
+    }
+    header img {
+        height: 30px;
+        width: 30px;
+    }
+  }
+
